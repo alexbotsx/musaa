@@ -52,7 +52,7 @@ const handler = async (m, {conn, usedPrefix}) => {
         'title': tradutor.texto2[1],
         'body': wm,
         'thumbnail': imagen1,
-        'sourceUrl': 'https://chat.whatsapp.com/IGsGRrP8paEAD2mHVF0xUT'}},
+        'sourceUrl': 'https://www.instagram.com/mxsa.afk?igsh=djV3d2wzaXpwNnpp'}},
     'caption': text,
     'footer': wm,
     // 'buttons':[
