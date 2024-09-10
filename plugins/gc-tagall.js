@@ -4,14 +4,14 @@ let handler = async(m, { isOwner, isAdmin, conn, text, participants, args, comma
   throw false
   }
   let pesan = args.join` `
-  let oi = `*𝗠𝗲𝗻𝘀𝗮𝗷𝗲:* ${pesan}`
-  let teks = `𓍢ִ໋  𝙈𝙪𝙨𝙖 𝘽𝙤𝙩 🧡
+  let oi = `➜ 𝗠𝗘𝗡𝗦𝗔𝗝𝗘: ${pesan}`
+  let teks = `𓍢ᨳ࣪  𝗠𝗨𝗦𝗔 𝗕𝗢𝗧 𝗟𝗢𝗦 𝗜𝗡𝗩𝗢𝗖𝗔 🧡🐱
 
 * 🛍️ Adquiere el bot con
 wa.me/+51944026510\n\n↳ ${oi}\n\n↳ *ETIQUETA:*\n`
   for (let mem of participants) {
-  teks += `･🍹 @${mem.id.split('@')[0]}\n`}
-  teks += `⇢ 𝗠𝗨𝗦𝗔𝗕𝗢𝗧`
+  teks += `🧡🐱･ @${mem.id.split('@')[0]}\n`}
+  teks += `➜ 𝗠𝗨𝗦𝗔𝗕𝗢𝗧`
   conn.sendMessage(m.chat, { text: teks, mentions: participants.map(a => a.id) }, )
   }
   handler.help = ['tagall <mesaje>','invocar <mesaje>']
